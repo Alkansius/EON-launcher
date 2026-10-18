@@ -1,0 +1,12 @@
+spawn-at-startup "eon-shell"
+
+layer-rule {
+    match namespace="^eon-launcher$"
+
+    background-effect {
+        blur true
+        xray false
+        noise 0.03
+        saturation 1.15
+    }
+}

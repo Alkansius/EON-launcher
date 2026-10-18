@@ -12,3 +12,8 @@ eon-power = { path = "../eon-power" }
 eon-status = { path = "../eon-status" }
 eon-notifications = { path = "../eon-notifications" }
 eon-audio = { path = "../eon-audio" }
+iced = { version = "0.14", features = ["svg", "tokio"] }
+iced_layershell = "0.19.1"
+iced_drop = { version = "0.2.51", features = ["helpers"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+winit-core = "=0.31.0-beta.2"

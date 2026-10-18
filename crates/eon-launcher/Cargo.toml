@@ -5,4 +5,9 @@ edition.workspace = true
 license.workspace = true
 
 [dependencies]
+directories = "6.0"
+freedesktop-desktop-entry = "0.8.3"
+freedesktop-icons = "0.4.0"
 eon-core = { path = "../eon-core" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
