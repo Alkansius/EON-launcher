@@ -1,0 +1,8 @@
+[package]
+name = "eon-notifications"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+eon-core = { path = "../eon-core" }

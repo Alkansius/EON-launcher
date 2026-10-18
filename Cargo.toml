@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/eon-core",
+    "crates/eon-shell",
+    "crates/eon-launcher",
+    "crates/eon-settings",
+    "crates/eon-power",
+    "crates/eon-status",
+    "crates/eon-notifications",
+    "crates/eon-audio",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"

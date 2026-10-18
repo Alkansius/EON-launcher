@@ -1,0 +1,14 @@
+[package]
+name = "eon-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+eon-core = { path = "../eon-core" }
+eon-launcher = { path = "../eon-launcher" }
+eon-settings = { path = "../eon-settings" }
+eon-power = { path = "../eon-power" }
+eon-status = { path = "../eon-status" }
+eon-notifications = { path = "../eon-notifications" }
+eon-audio = { path = "../eon-audio" }
